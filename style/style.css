@@ -315,7 +315,18 @@ color: #6888b1;
   width: 100vw;
   height: 100vh;
   position: relative;
+  overflow: hidden;
 }
+.blue-freedelivery{
+  width: 10%;
+position: absolute;
+top: -7%;
+left: 10%;
+}
+.blue-free{
+  width: 100%;
+}
+
 .delivery-main {
   background: url(../images/banner1.jpg) no-repeat scroll center;
   background-size: cover;
@@ -564,7 +575,9 @@ margin: 3rem 0;
     text-align: center;
     width: 70%;
   }
-
+  .blue-freedelivery{
+    top: -3%;
+  }
   .delivery-container h2 {
     font-size: 40px;
     margin-bottom: 1rem;
@@ -730,7 +743,9 @@ margin: 3rem 0;
     text-align: center;
     width: 70%;
   }
-
+  .blue-freedelivery{
+    top: -4%;
+  }
   .delivery-container h2 {
     font-size: 60px;
     margin-bottom: 1.5rem;
@@ -876,7 +891,9 @@ margin: 3rem 0;
   .delivery-container {
     width: 70%;
   }
-
+  .blue-freedelivery{
+    top: -5%;
+  }
   .delivery-container h2 {
     font-size: 60px;
     letter-spacing: 1px;
